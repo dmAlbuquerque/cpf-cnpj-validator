@@ -1,6 +1,6 @@
 {
   "name": "@dmalbuquerque/cpf-cnpj-validator",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Biblioteca para gerar, validar e formatar CPF, CNPJ e CNPJ alfanumérico com suporte para integração com Joi.",
   "keywords": [
     "node",
@@ -11,8 +11,8 @@
     "validator",
     "brasil"
   ],
-  "main": "./dist/src/index.js",
-  "types": "./dist/src/index.d.ts",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
   "repository": {
     "type" : "git",
     "url" : "https://github.com/dmAlbuquerque/cpf-cnpj-validator.git"
@@ -27,6 +27,9 @@
     "prepare": "npm run build",
     "test": "jest"
   },
+  "files": [
+   "dist/"
+  ],
   "author": "Daniel Albuquerque",
   "license": "MIT",
   "devDependencies": {
