@@ -1,0 +1,13 @@
+# Dependências do Node.js
+node_modules/
+
+# Build e dist
+dist/
+build/
+
+# Arquivos do editor
+.vscode/
+
+# Arquivos de ambiente
+.env
+
