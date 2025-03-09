@@ -1,6 +1,6 @@
 {
   "name": "@dmalbuquerque/cpf-cnpj-validator",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Biblioteca para gerar, validar e formatar CPF, CNPJ e CNPJ alfanumérico com suporte para integração com Joi.",
   "keywords": [
     "node",

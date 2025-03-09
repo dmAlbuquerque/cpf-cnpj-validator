@@ -15,7 +15,7 @@ npm install @dmalbuquerque/cpf-cnpj-validator
 
 ### Para projetos com Typescript
 ```ts
-import { cpf, cnpj, documentValidator} from './dist/index';
+import { cpf, cnpj, documentValidator} from '@dmalbuquerque/cpf-cnpj-validator';
 
 console.log(cpf.isValid('21156032300'));
 console.log(cnpj.isValid('20245526000149'));
@@ -24,7 +24,7 @@ console.log(cnpj.isValid('20245526000149'));
 
 ### Para projetos com Javascript
 ```js
-const { cpf, cnpj, documentValidator} = require('./dist/index');
+const { cpf, cnpj, documentValidator} = require('@dmalbuquerque/cpf-cnpj-validator');
 
 console.log(cpf.isValid('21156032300'));
 console.log(cnpj.isValid('20245526000149'));
@@ -32,7 +32,7 @@ console.log(cnpj.isValid('20245526000149'));
 ou
 
 ```js
-const documents = require('./dist/index');
+const documents = require('@dmalbuquerque/cpf-cnpj-validator');
 
 console.log(documents.cpf.isValid('21156032300'));
 console.log(documents.cnpj.isValid('20245526000149'));
@@ -142,7 +142,7 @@ Esta biblioteca também permite a validação de CPF e CNPJ utilizando a bibliot
 
 ```js
 import Joi from "joi";
-import documentValidator from "./dist/index";
+import documentValidator from "@dmalbuquerque/cpf-cnpj-validator";
 
 const joi = Joi.extend(documentValidator);
 
